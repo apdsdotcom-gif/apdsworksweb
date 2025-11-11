@@ -1,0 +1,4 @@
+@keyframes waveFloat{0%{transform:translateY(0)}50%{transform:translateY(6px)}100%{transform:translateY(0)}}
+@keyframes blobDrift{0%{transform:scale(1)}50%{transform:scale(1.02)}100%{transform:scale(1)}}
+.anim-wave{animation:waveFloat 14s ease-in-out infinite;}
+.anim-blob{animation:blobDrift 24s ease-in-out infinite;}

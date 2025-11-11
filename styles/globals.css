@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand gradient button */
+.btn-gradient {
+  @apply inline-block rounded-2xl text-white px-5 py-3 shadow-soft transition-transform;
+  background: linear-gradient(90deg, #7C7CF0 0%, #C09BFF 50%, #9EE7F5 100%);
+}
+.btn-gradient:hover { transform: translateY(-2px); }
+
+html, body { background: #FDEEDF; }
+
+
+html { scroll-behavior: smooth; }
+body { color: #0f172a; } /* slate-900 */
+h1,h2,h3 { letter-spacing: -0.01em; }
+.prose img { border-radius: 0.75rem; box-shadow: 0 8px 30px rgba(0,0,0,0.06); }
+.card { @apply rounded-2xl bg-white/70 backdrop-blur shadow-soft p-5 transition transform hover:-translate-y-1; }
